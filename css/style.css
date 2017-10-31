@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico&subset=cyrillic,latin-ext,vietnamese');
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeef1;
+}
+
+
+/* 主色(primary) #29323b */
+
+
+/* 強調色(accent) #E2C0B9 */
+
+
+/* 字體顏色 #333 */
+
+
+/** {
+    border: 1px solid black
+}*/
+
+.cv {
+    width: 700px;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 0 5px 22px -3px rgba(194, 204, 187, 0.541);
+    z-index: 3;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+td {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+    position: relative;
+}
+
+.decoration-box {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(235, 217, 240);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.cv-header,
+.cv-body,
+.cv-footer {
+    padding: 30px 50px
+}
+
+.cv-header {
+    background: rgba(129, 216, 208, 0.5)
+}
+
+.experience {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    position: relative;
+    border-bottom: 1px dashed #ccc
+}
+
+.experience:last-child {
+    border-bottom: none
+}
+
+.company-logo {
+    top: 30px;
+    right: 0;
+    position: absolute;
+    /*static預設值(定位無效)*/
+    height: 40px;
+}
+
+.cv-footer {
+    padding: 60px 50px;
+    background-color: rgba(129, 216, 208, 0.5)
+}
+
+.social-link {
+    color: white;
+    background: rgba(0, 0, 0, 0.493);
+    border: 1px dashed white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    vertical-align: top;
+    text-decoration: none;
+}
